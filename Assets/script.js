@@ -41,7 +41,7 @@ function getData() {
         
         }).then(function (response) {
             console.log(response);
-            for (i = 0; i < 32; i+=8) { 
+            for (i = 0; i < 40; i+=8) { 
                 console.log(response.list[i]);
                 //creating the 5 day forecast cards and adding the data from the API
                 var forecastCard = $("<div>").attr("class", "col bg-success text-white p-3 m-1 rounded");
