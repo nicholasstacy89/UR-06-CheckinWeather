@@ -1,0 +1,32 @@
+/* basic styling for the page */
+body {
+    background-color: #343434;
+    font-family: "Long Cang", sans-serif;
+    font-size: 25px;
+    line-height: 1.4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#forecast {
+    border-radius: 10px;
+    
+    
+
+}
+img {
+    width : 75px;
+    height: 75px
+}
+#city {
+    border-radius: 10px 0px 0px 10px;
+    margin-right: 3px;
+}
