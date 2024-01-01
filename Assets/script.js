@@ -83,6 +83,7 @@ $('#searchCity').click(function() {
         });
         cityListButton.text(City);
         $('.list-group').append(cityListButton);
+        $('#city').val('');
     };
 });
 //local storage function to get the cityHistory array from local storage and display it on the page
