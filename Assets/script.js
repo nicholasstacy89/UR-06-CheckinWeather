@@ -44,7 +44,7 @@ function getData() {
             for (i = 0; i < 32; i+=8) { 
                 console.log(response.list[i]);
                 //creating the 5 day forecast cards and adding the data from the API
-                var forecastCard = $("<div>").attr("class", "col bg-primary text-white p-3 m-1 rounded");
+                var forecastCard = $("<div>").attr("class", "col bg-success text-white p-3 m-1 rounded");
                 $('#forecast').append(forecastCard);
                 var myDate = new Date(response.list[i].dt * 1000);
                 forecastCard.append($('<h4>').html(myDate.toLocaleDateString()));
@@ -72,12 +72,13 @@ $('#searchCity').click(function() {
     if (checkArray == true) {
         return
     }
+    
     else {
         var City = city.toUpperCase();
         cityHistory.push(City);
         localStorage.setItem('cityHistory', JSON.stringify(cityHistory));
         var cityListButton = $("<a>").attr({
-            class: "list-group-item list-group-item-action",
+            class: "list-group-item list-group-item-success",
             href: "#"
         });
         cityListButton.text(City);
@@ -97,7 +98,7 @@ function getItems() {
           }
         
         cityListButton = $("<a>").attr({
-            class: "list-group-item list-group-item-action",
+            class: "list-group-item list-group-item-success",
             href: "#"
         });
         
