@@ -95,8 +95,9 @@ This Challenge is graded based on the following criteria:
 You are required to submit BOTH of the following for review:
 
 * The URL of the functional, deployed application.
+https://nicholasstacy89.github.io/UR-06-CheckinWeather/
 
 * The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
+https://github.com/nicholasstacy89/UR-06-CheckinWeather
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
